@@ -1,0 +1,9 @@
+{
+    "url": "https://a828-191-252-220-186.sa.ngrok.io/test.yaml",
+    "urls": [
+        {
+            "url": "https://a828-191-252-220-186.sa.ngrok.io/test.yaml",
+            "name": "Foo"
+        }
+    ]
+}
